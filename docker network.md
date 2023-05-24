@@ -25,3 +25,9 @@
 - connects the container to  "mongo-network" (allowing it to connect to the "mongodb" container in it)
 - overwriting the name of the container to "mongo-express"
 - tells mongodb-express the address of the mongodb-database it needs connect to
+
+# docker logs <container id> | tail
+- shows only the last part of log
+
+# docker logs <container id> -f
+- streams the logs 
