@@ -22,6 +22,8 @@
 # docker start <container id>
 - starts the container
 - "start" is associated with containers as after the containers are created, we can start or stop them
+- when we restart a container, everything that we configured in that container application is gone, i.e., all the data is lost
+- in order to combat this, we have "container volumes"
 
 # docker ps -a
 - shows all the containers running or not running (basically container history)
