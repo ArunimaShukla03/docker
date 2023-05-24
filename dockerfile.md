@@ -1,0 +1,1 @@
+- A dockerfile contains all the necessary instructions and contents necessary to create a docker image while the docker image includes everything (i.e. dependencies, application code) that is needed to run an application.
