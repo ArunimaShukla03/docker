@@ -13,7 +13,7 @@ HOW DO WE BUILD AN IMAGE FROM A DOCKERFILE?
 - also "." defines the location of the dockerfile, as we have it our current directory thus "." 
 - this builds an image from our dockerfile
 
-This is what basically "Jenkins" do as it takes our application and builds an image from that application.
+This is what basically "Jenkins" does as it takes our application and builds an image from that application.
  
 # docker rmi <image id>
 - deletes the image 
