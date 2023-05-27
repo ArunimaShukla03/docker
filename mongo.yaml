@@ -7,8 +7,15 @@
 version: '3' # version of docker compose
 services: # lists the container names that we want to create
 
+  my-app: # container name of my build application
+    image: registryDomain/imageName:tag # my-app image container
+    ports:
+      - 3000:3000 # where the container is listening when you run it
+      
+
   mongodb: # maps to the container name
-    image: mongo # image container is built from
+    image: mongo # image container is built from 
+                 # shortcut for docker.io/Library/mongo:latest
     ports: 
       - 27017:27017 # host:container
     environment:
